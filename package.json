@@ -4,9 +4,18 @@
   "description": "Para iniciar e praticar meus estudos no uso do Apache Kafka, após entender um pouco de como funciona a estrutura do Kafka",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
