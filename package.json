@@ -1,0 +1,12 @@
+{
+  "name": "kafka-init",
+  "version": "1.0.0",
+  "description": "Para iniciar e praticar meus estudos no uso do Apache Kafka, após entender um pouco de como funciona a estrutura do Kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
